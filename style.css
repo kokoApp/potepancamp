@@ -300,6 +300,7 @@ color: #A2A2A4;
   margin-top: 40px;
  }
 }
+
 @media screen and (max-width: 1080px){
   .HeaderNavList{
   overflow-y: scroll;
@@ -317,13 +318,13 @@ color: #A2A2A4;
  padding-top: 60px;
  }  
 }
+
 @media screen and (max-width: 767px){
  .FirstViewContent_title{
   font-size: 20px;
   padding-right:50px;
  }
  .FirstViewContent_images{
-  
   text-align: right;
  }
    .HeaderLogo_image--sp{
@@ -335,18 +336,29 @@ color: #A2A2A4;
   .FirstView_main--sp{
   display: block;
  }
+ .FirstViewContent_images img{
+ display: inline-block;
+ width: 24%;
+ text-align: center;
+}
+.FirstViewContent_images img:nth-last-of-type(2){
+ 
+}
+.FirstViewContent_buttons{
+ display: flex;
+}
  .FirstViewContent_buttons{
   flex-direction:column;
  }
 .FirstViewContent_buttons a:first-of-type {
  margin-right: 15px;
- width: 500px;
+ width: 300px;
 }
 .FirstViewContent_buttons a:last-of-type{
  background-color: #fff;
  border: 1px solid #E0E0E0;
  color: #333;
- width: 500px;
+ width: 300px;
 }
  .FirstView{
   background-image: none;
