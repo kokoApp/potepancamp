@@ -373,13 +373,13 @@ color: #A2A2A4;
  }
 .FirstViewContent_buttons a:first-of-type {
  margin-right: 15px;
- width: 300px;
+ width: 450px;
 }
 .FirstViewContent_buttons a:last-of-type{
  background-color: #fff;
  border: 1px solid #E0E0E0;
  color: #333;
- width: 300px;
+ width: 450px;
 }
  .FirstView{
   background-image: none;
