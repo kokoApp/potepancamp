@@ -289,7 +289,7 @@ color: #A2A2A4;
 }
 
 @media screen and (max-width: 1024px){
-     .About{
+  .About{
   flex-direction: column;
  }
   .About_title{
@@ -314,20 +314,44 @@ color: #A2A2A4;
   letter-spacing: 5px;
   color: #fff;
  }
+ .header-nav .header-nav-hamburger-line1 {
+  position: absolute;
+  top: 15%;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  }
+  .header-nav .header-nav-hamburger-line2 {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  }
+  .header-nav .header-nav-hamburger-line3 {
+  position: absolute;
+  top: 85%;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  }
  main{
- padding-top: 60px;
- }  
+ padding-top: 60px
+ } 
 }
 
 @media screen and (max-width: 767px){
  .FirstViewContent_title{
   font-size: 20px;
+  line-height: 30px;
   padding-right:50px;
+  margin-top: -200px;
  }
  .FirstViewContent_images{
   text-align: right;
- }
-   .HeaderLogo_image--sp{
+  width: 100%;
+  }
+ .HeaderLogo_image--sp{
   display: block;
  }
   .HeaderLogo_image--pc{
@@ -340,9 +364,6 @@ color: #A2A2A4;
  display: inline-block;
  width: 24%;
  text-align: center;
-}
-.FirstViewContent_images img:nth-last-of-type(2){
- 
 }
 .FirstViewContent_buttons{
  display: flex;
